@@ -1,4 +1,105 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #e9edc9;
+}
+
+.box {
+  width: 750px;
+  height: 550px;
+  /* background-color: #e9edc9; */
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border-radius: 20px; */
+  border-radius: 46px;
+  background: #e9edc9;
+  box-shadow: 27px 27px 52px #cbceaf, -27px -27px 52px #ffffe3;
+}
+
+#city {
+  border: none;
+  /* border-bottom: 1px solid black; */
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #a2b36b;
+}
+
+.sun,
+.cloud-sun,
+.ice,
+.thunder,
+.rain {
+  font-size: 30px;
+  color: #a2b36b;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  height: 105px;
+  width: 105px;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 29px;
+  background: linear-gradient(145deg, #d2d5b5, #f9fed7);
+  box-shadow: 11px 11px 18px #d2d5b5, -11px -11px 18px #ffffdd;
+}
+
 h1 {
-  color: red;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.col-sm-2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button {
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 2px solid #a2b36b;
+  background-color: #a2b36b;
+  color: white;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #000;
 }
