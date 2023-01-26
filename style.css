@@ -3,13 +3,16 @@ body {
   display: flex;
   justify-content: center;
   background-color: #e9edc9;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box {
   width: 750px;
   height: 550px;
   /* background-color: #e9edc9; */
-  margin-top: 75px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +32,10 @@ body {
 a {
   text-decoration: none;
   color: #000;
+}
+
+.red {
+  color: #64703b;
 }
 
 a:hover {
